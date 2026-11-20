@@ -92,3 +92,56 @@ h1 {
   font-size: 0.8rem;
   opacity: 0.75;
 }
+
+.card {
+  display: block;
+}
+
+.search {
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 24px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card);
+  color: inherit;
+}
+
+.search:focus {
+  outline: 2px solid var(--accent);
+}
+
+.empty {
+  opacity: 0.7;
+}
+
+.detail {
+  max-width: 720px;
+}
+
+.back {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.detail-art {
+  display: grid;
+  place-items: center;
+  height: 200px;
+  margin: 20px 0;
+  font-size: 6rem;
+  background: #fff0e3;
+  border-radius: 14px;
+}
+
+.detail-meta {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+}
+
+.detail li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
